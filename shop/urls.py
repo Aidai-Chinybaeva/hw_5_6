@@ -16,5 +16,5 @@ urlpatterns = [
     path('category/<int:category_id>/item', views.ItemListCreateAPIView.as_view()),
     path('category/<int:category_id>/item/<int:item_id>/order/', views.OrderListCreateAPIView.as_view()),
     path('category/<int:category_id>/item/<int:item_id>/order/<int:order_id>/'),
-        views.OrderRetrieveUpdateDestroyAPIView.as_view())
+        views.OrderRetrieveUpdateDestroyAPIView.as_view()
 ]
